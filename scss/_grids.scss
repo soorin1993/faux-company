@@ -1,0 +1,17 @@
+@import "susy";
+@include border-box-sizing;
+
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+);
+
+
+.container {
+	@include container;
+	width: 960px;
+}
+
+$small: 1px 480px;
+$medium: 481px 768px;
